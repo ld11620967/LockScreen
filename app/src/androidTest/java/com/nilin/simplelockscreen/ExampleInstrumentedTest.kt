@@ -1,4 +1,4 @@
-package com.nilin.lockscreen
+package com.nilin.simplelockscreen
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

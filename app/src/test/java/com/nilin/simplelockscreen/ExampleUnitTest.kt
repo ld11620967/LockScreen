@@ -1,4 +1,4 @@
-package com.nilin.lockscreen
+package com.nilin.simplelockscreen
 
 import org.junit.Test
 

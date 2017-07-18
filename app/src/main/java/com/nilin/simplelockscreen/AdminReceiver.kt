@@ -1,4 +1,4 @@
-package com.nilin.lockscreen
+package com.nilin.simplelockscreen
 
 import android.app.admin.DeviceAdminReceiver
 

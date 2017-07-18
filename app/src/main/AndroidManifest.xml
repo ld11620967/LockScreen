@@ -1,12 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-    package="com.nilin.lockscreen">
+    package="com.nilin.simplelockscreen">
 
     <application
         android:icon="@drawable/icon"
         android:label="@string/app_name">
         <activity
-            android:name=".LockScreen"
+            android:name="com.nilin.simplelockscreen.LockScreen"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +16,7 @@
 
         <!-- 设备管理 -->
         <receiver
-            android:name=".AdminReceiver"
+            android:name="com.nilin.simplelockscreen.AdminReceiver"
             android:permission="android.permission.BIND_DEVICE_ADMIN"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <meta-data
